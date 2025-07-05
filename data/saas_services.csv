@@ -1,0 +1,98 @@
+#domain,category,risk_level,description
+slack.com,communication,medium,Team messaging and collaboration
+dropbox.com,storage,high,Cloud file storage and sharing
+google.com,productivity,medium,Google Workspace services
+office.com,productivity,medium,Microsoft 365 services
+zoom.us,communication,medium,Video conferencing
+trello.com,project_management,low,Project management and task tracking
+asana.com,project_management,low,Project and task management
+box.com,storage,high,Enterprise cloud storage
+notion.so,productivity,medium,All-in-one workspace
+figma.com,design,low,Design and prototyping tool
+canva.com,design,low,Graphic design platform
+airtable.com,database,medium,Database and spreadsheet hybrid
+monday.com,project_management,medium,Work operating system
+clickup.com,productivity,medium,All-in-one productivity platform
+linear.app,project_management,low,Issue tracking for software teams
+github.com,development,medium,Code repository and collaboration
+gitlab.com,development,medium,DevOps platform
+bitbucket.org,development,medium,Code repository
+discord.com,communication,high,Gaming and community chat
+telegram.org,communication,high,Messaging app
+whatsapp.com,communication,high,Messaging app
+signal.org,communication,high,Encrypted messaging
+wechat.com,communication,high,Messaging and social media
+line.me,communication,high,Messaging app
+viber.com,communication,high,Messaging app
+skype.com,communication,medium,Video calling and messaging
+teams.microsoft.com,communication,medium,Microsoft Teams
+webex.com,communication,medium,Cisco Webex meetings
+gotomeeting.com,communication,medium,Online meetings
+bluejeans.com,communication,medium,Video conferencing
+ringcentral.com,communication,medium,Unified communications
+salesforce.com,crm,high,Customer relationship management
+hubspot.com,crm,medium,Marketing and sales platform
+pipedrive.com,crm,medium,Sales CRM
+zoho.com,productivity,medium,Business applications suite
+freshdesk.com,support,medium,Customer support software
+zendesk.com,support,medium,Customer service platform
+intercom.com,support,medium,Customer messaging platform
+drift.com,support,medium,Live chat and messaging
+calendly.com,productivity,low,Meeting scheduling
+acuityscheduling.com,productivity,low,Appointment scheduling
+doodle.com,productivity,low,Polling and scheduling
+when2meet.com,productivity,low,Meeting time finder
+typeform.com,productivity,low,Online forms and surveys
+googleforms.com,productivity,low,Google Forms
+survey monkey,productivity,low,Survey platform
+qualtrics.com,productivity,low,Survey and research platform
+mailchimp.com,marketing,medium,Email marketing
+constantcontact.com,marketing,medium,Email marketing
+sendgrid.com,marketing,medium,Email delivery service
+klaviyo.com,marketing,medium,Email marketing automation
+convertkit.com,marketing,medium,Email marketing for creators
+substack.com,marketing,medium,Newsletter platform
+medium.com,content,low,Content publishing platform
+wordpress.com,content,low,Website and blog platform
+wix.com,content,low,Website builder
+squarespace.com,content,low,Website builder
+shopify.com,ecommerce,high,Online store platform
+woocommerce.com,ecommerce,high,WordPress ecommerce
+stripe.com,payment,high,Payment processing
+paypal.com,payment,high,Online payments
+square.com,payment,high,Payment and point of sale
+quickbooks.intuit.com,accounting,high,Accounting software
+xero.com,accounting,high,Accounting software
+freshbooks.com,accounting,medium,Accounting and invoicing
+waveapps.com,accounting,medium,Financial software
+mint.com,finance,high,Personal finance tracking
+ynab.com,finance,medium,Budgeting software
+robinhood.com,finance,high,Investment platform
+coinbase.com,finance,high,Cryptocurrency exchange
+binance.com,finance,high,Cryptocurrency exchange
+spotify.com,entertainment,low,Music streaming
+netflix.com,entertainment,low,Video streaming
+youtube.com,entertainment,low,Video platform
+twitch.tv,entertainment,low,Live streaming
+tiktok.com,social,high,Social media platform
+instagram.com,social,high,Social media platform
+facebook.com,social,high,Social media platform
+twitter.com,social,high,Social media platform
+linkedin.com,social,medium,Professional networking
+reddit.com,social,medium,Social news and discussion
+pinterest.com,social,medium,Visual discovery platform
+snapchat.com,social,high,Social media and messaging
+tinder.com,social,high,Dating app
+bumble.com,social,high,Dating app
+okcupid.com,social,high,Dating app
+uber.com,transportation,high,Ride sharing
+lyft.com,transportation,high,Ride sharing
+doordash.com,food,high,Food delivery
+grubhub.com,food,high,Food delivery
+ubereats.com,food,high,Food delivery
+airbnb.com,travel,high,Accommodation booking
+booking.com,travel,high,Travel booking
+expedia.com,travel,high,Travel booking
+kayak.com,travel,high,Travel search engine
+hotels.com,travel,high,Hotel booking
+tripadvisor.com,travel,low,Travel reviews and booking 

@@ -1,0 +1,17 @@
+Type,Service/Application,Risk Level,Category,Details,Source
+Application,WhatsApp.exe,low,Unknown,PID: 10792,Endpoint Scanner
+Application,Google Chrome,low,Unknown,PID: Unknown,Endpoint Scanner
+Application,Epic Online Services,low,Unknown,PID: Unknown,Endpoint Scanner
+Browser Extension,__MSG_name__,low,Browser,Browser: chrome,Browser Scanner
+Browser Extension,Swash,low,Browser,Browser: chrome,Browser Scanner
+Browser Extension,__MSG_appName__,low,Browser,Browser: chrome,Browser Scanner
+Browser Extension,GoFullPage - Full Page Screen Capture,low,Browser,Browser: chrome,Browser Scanner
+Browser Extension,__MSG_extName__,low,Browser,Browser: chrome,Browser Scanner
+Browser Extension,Malwarebytes Browser Guard,low,Browser,Browser: chrome,Browser Scanner
+Browser Extension,Unpaywall,low,Browser,Browser: chrome,Browser Scanner
+Browser Extension,Grammarly: AI Writing and Grammar Checker App,low,Browser,Browser: chrome,Browser Scanner
+Browser Extension,__MSG_appName__,low,Browser,Browser: chrome,Browser Scanner
+Browser Extension,__MSG_APP_NAME__,low,Browser,Browser: chrome,Browser Scanner
+Browser Extension,Malwarebytes Browser Guard,low,Browser,Browser: edge,Browser Scanner
+Browser Extension,__MSG_extName__,low,Browser,Browser: edge,Browser Scanner
+Browser Extension,Edge relevant text changes,low,Browser,Browser: edge,Browser Scanner

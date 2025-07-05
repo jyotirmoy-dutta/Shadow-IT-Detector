@@ -1,0 +1,74 @@
+version: '3.8'
+
+services:
+  shadowit-detector:
+    build: .
+    container_name: shadowit-detector
+    restart: unless-stopped
+    ports:
+      - "5000:5000"  # Web dashboard
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./data:/app/data:ro
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+      - /var/run/docker.sock:/var/run/docker.sock:ro  # For container monitoring
+    environment:
+      - PYTHONPATH=/app
+      - SHADOWIT_SERVER_URL=http://localhost:8000  # Optional central server
+      - SHADOWIT_API_KEY=${SHADOWIT_API_KEY:-}  # Optional API key
+    networks:
+      - shadowit-network
+    command: ["python", "-m", "detector.main", "--monitor"]
+
+  # Optional: PostgreSQL database for centralized storage
+  postgres:
+    image: postgres:13
+    container_name: shadowit-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: shadowit
+      POSTGRES_USER: shadowit
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-shadowit_password}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - shadowit-network
+    ports:
+      - "5432:5432"
+
+  # Optional: Redis for caching and real-time features
+  redis:
+    image: redis:6-alpine
+    container_name: shadowit-redis
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+    networks:
+      - shadowit-network
+    ports:
+      - "6379:6379"
+
+  # Optional: Nginx reverse proxy
+  nginx:
+    image: nginx:alpine
+    container_name: shadowit-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro  # For HTTPS
+    depends_on:
+      - shadowit-detector
+    networks:
+      - shadowit-network
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  shadowit-network:
+    driver: bridge 

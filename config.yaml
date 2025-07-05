@@ -1,0 +1,39 @@
+# Shadow IT Detector Configuration
+
+scan:
+  network_scan_interval: 300  # 5 minutes
+  endpoint_scan_interval: 3600  # 1 hour
+  browser_scan_interval: 1800  # 30 minutes
+  max_connections_per_scan: 1000
+  enable_real_time_monitoring: true
+  enable_browser_extension_scan: true
+  enable_cloud_storage_scan: true
+  enable_social_media_scan: true
+
+alerts:
+  enable_email_alerts: false
+  enable_console_alerts: true
+  enable_log_file: true
+  alert_threshold: medium  # low, medium, high
+  email_recipients: null
+  smtp_server: ""
+  smtp_port: 587
+  smtp_username: ""
+  smtp_password: ""
+
+reports:
+  enable_html_reports: true
+  enable_csv_reports: true
+  enable_json_reports: true
+  report_directory: reports
+  auto_generate_reports: true
+  report_retention_days: 30
+
+security:
+  enable_whitelist: false
+  whitelist_domains: null
+  enable_blacklist: false
+  blacklist_domains: null
+  enable_user_consent: true
+  data_retention_days: 90
+  encrypt_reports: false 
