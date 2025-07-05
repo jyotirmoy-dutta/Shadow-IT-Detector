@@ -1,7 +1,6 @@
 # 🔍 Shadow IT Detector
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/your-org/shadowit-detector)
 [![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen.svg)](https://github.com/your-org/shadowit-detector/actions)
 
@@ -428,24 +427,6 @@ mypy detector/
 - **v1.1.0** - Added web dashboard and agent mode
 - **v1.2.0** - Enhanced reporting and configuration management
 
-## 📞 Support
-
-### Getting Help
-- 📖 [Documentation](https://github.com/your-org/shadowit-detector/wiki)
-- 🐛 [Issue Tracker](https://github.com/your-org/shadowit-detector/issues)
-- 💬 [Discussions](https://github.com/your-org/shadowit-detector/discussions)
-- 📧 [Email Support](mailto:support@shadowit-detector.com)
-
-### Community
-- 🌐 [Website](https://shadowit-detector.com)
-- 📰 [Blog](https://blog.shadowit-detector.com)
-- 🐦 [Twitter](https://twitter.com/shadowit_detector)
-- 💼 [LinkedIn](https://linkedin.com/company/shadowit-detector)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - Built with ❤️ by the Shadow IT Detector team
@@ -456,5 +437,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Ready to secure your enterprise? Get started with Shadow IT Detector today!** 🚀
-
-[![Get Started](https://img.shields.io/badge/Get%20Started-Install%20Now-blue?style=for-the-badge&logo=github)](https://github.com/your-org/shadowit-detector#installation) 
